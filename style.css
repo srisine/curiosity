@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    background-color: #213555;
+    color: #F5EFE7;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 10vh;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    cursor: pointer;
+
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.srh{
+    background-color: #3E5879;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #F5EFE7;
+
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.srh select{
+    height: 5vh;
+    border-radius: 15px;
+    background-color: #213555;
+    border: none;
+    color: #F5EFE7;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.srh button{
+    height: 5vh;
+    border-radius: 15px;
+    border: none;
+    background-color: #7b809c56;
+    color: #213555;
+    cursor: pointer;
+}
+
+.rslt{
+    background-color: #213555;
+    overflow: auto;
+}
+
+.rslt img{
+    width: 95vw;
+    height: 60vh;
+    margin: 5px;
+    object-fit: contain;
+    border: 2px solid #3E5879;
+}
+
+.rslt label{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #F5EFE7;
+}
